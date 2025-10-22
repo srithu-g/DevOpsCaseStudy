@@ -13,7 +13,7 @@ spec:
         app: portfolio
     spec:
       containers:
-      - name:portfolio
+      - name: portfolio
         image: srithu/casestudy:latest
         ports:
         - containerPort: 5000
