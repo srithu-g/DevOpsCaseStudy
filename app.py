@@ -8,7 +8,7 @@ app.secret_key = os.environ.get("FLASK_SECRET", "change-me")
 # Basic site / resume data (extracted from provided resume)
 PROFILE = {
     "name": "Srithu Gaddolla",
-    "title": "Full-Stack Developer",
+    "title": "AI/ML & Full-Stack Developer",
     "location": "Nizamabad, Telangana, India",
     "email": "srithu.gaddolla@gmail.com",
     "phone": "+91 9100863190",
