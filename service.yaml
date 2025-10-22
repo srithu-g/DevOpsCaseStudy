@@ -1,14 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: portfolio-service
+  name: register-service
 spec:
   selector:
-    app: portfolio
+    app: register
   type: NodePort
   ports:
     - protocol: TCP
       port: 5000
       targetPort: 5000
       nodePort: 30080
-  type: NodePort
